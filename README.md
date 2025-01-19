@@ -17,7 +17,8 @@ Stark Agent is an innovative AI-powered interface for seamless interaction with 
 ## 🛠️ Tech Stack
 
 - **Vite + React**: For fast and scalable UI development
-- **Starknet Agent Kit**: For interaction with Starknet
+- **Starknet Agent Kit**: For AI agent development
+- **Starknet RPC by Nethermind**: For blockchain operations 
 - **Tailwind CSS**: For responsive design
 
 ---
@@ -80,7 +81,7 @@ AI_PROVIDER=""  # "anthropic", "openai", "gemini", or "ollama"
 AI_MODEL=""  # e.g., "claude-3-5-sonnet-latest"
 PRIVATE_KEY=""
 PUBLIC_ADDRESS=""
-RPC_URL=""
+RPC_URL="https://free-rpc.nethermind.io/sepolia-juno"
 NODE_ENV="development"
 PORT=3001
 ```
